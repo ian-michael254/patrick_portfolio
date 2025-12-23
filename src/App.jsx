@@ -1,10 +1,13 @@
-import React from 'react'
+import Navbar from './components/Navbar.jsx'
+
 
 function App() {
   return (
-    <div  className='bg-pink-500 text-bold text-center underline text-violet-800 text-6xl'>
-      PATRICK OCHIENG
-    </div>
+   <div className='w-full mx-w-full h-auto mx-h-auto bg-pink-300 overflow-x-hidden overflow-y-hidden px-10 py-5 mx-auto font-body box-border' >
+    <Navbar />
+     
+    
+   </div>
   )
 }
 
